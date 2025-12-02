@@ -863,13 +863,13 @@ nav ul ul li {
 
   .caption-text-italic {
     font-style: italic;
-    font-size: calc(var(--paragraph-text-dimension)*1.236);
+    font-size: calc(var(--paragraph-text-dimension)*1);
     line-height: calc(var(--paragraph-text-line-height)*1);
     text-indent: 0vw;
   }
 
   .figure-caption-text {
-   font-size: calc(var(--paragraph-text-dimension)*1.236);
+   font-size: calc(var(--paragraph-text-dimension)*1);
     line-height: calc(var(--paragraph-text-line-height)*1);
   text-indent: 0vw;
    margin-top: calc(var(--spacer)/3.236);
