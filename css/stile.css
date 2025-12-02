@@ -805,7 +805,7 @@ nav ul ul li {
   }
 
   .primary-heading {
-    font-size: calc(var(--paragraph-text-dimension)*2.618);
+    font-size: calc(var(--paragraph-text-dimension)*2);
     line-height: calc(var(--paragraph-text-line-height)*0.927);
   }
 
@@ -850,7 +850,7 @@ nav ul ul li {
   }
 
   .caption-text {
-    font-size: calc(var(--paragraph-text-dimension)*1.236);
+    font-size: calc(var(--paragraph-text-dimension)*1);
     line-height: calc(var(--paragraph-text-line-height)*1);
     text-indent: 0vw;
   }
@@ -896,7 +896,7 @@ nav ul ul li {
   .nav-wrapper {
     position: absolute;
     width: 100%;
-    margin-top: 25%;
+    margin-top: 20%;
     z-index: 2;
   }
 
