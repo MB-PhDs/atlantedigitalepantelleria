@@ -18,9 +18,9 @@ span,
 applet,
 object,
 iframe,
-primary-heading,
-paragraph-text,
-caption-text,
+h1,
+h2,
+h3,
 h4,
 h5,
 h6,
@@ -194,7 +194,7 @@ a:active {
   flex-direction: row;
   border-color: green;
   left: 50%;
-  top: 80%;
+  top: 70%;
   justify-content: space-around;
 }
 
@@ -204,53 +204,15 @@ a:active {
 }
 
 .login-botton {
-  font-size: calc(var(--paragraph-text-dimension)*1,618);
+  font-size: var(--paragraph-text-dimension);
 }
 
 /* responsive behavior*/
 
 /*viewpoint breakpoint*/
 
-@media screen and (min-device-width: 700px) and (max-device-width: 1024px) {
 
-  html {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ISOLA_DI_PANTELLERIA_-_panoramio.jpg/1600px-ISOLA_DI_PANTELLERIA_-_panoramio.jpg?20170208184330);
-  background-repeat: no-repeat;
-  background-position: center;
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  background-size: cover;
-}
-
-  .logotype-wrapper {
-    position: fixed;
-    top: 20%;
-    left: 0%;
-    display: flex;
-    flex-direction: row;
-    border-color: green;
-    width: 90%;
-  }
-  
-  .login-botton-wrapper {
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    border-color: green;
-    left: 45%;
-    top: 70%;
-    justify-content: space-around;
-  }
-
-  .login-botton {
-    font-size: var(--paragraph-text-dimension);
-  }
-
-  
-
-}
-
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
 
   .logotype-wrapper {
     position: fixed;
@@ -276,22 +238,31 @@ a:active {
     font-size: calc(var(--paragraph-text-dimension)*1);
   }
 
+  
+
 }
-
 /* device breakpoint*/
-
 
 
 @media screen and (min-device-width: 700px) and (max-device-width: 1024px) {
 
+  html {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ISOLA_DI_PANTELLERIA_-_panoramio.jpg/1600px-ISOLA_DI_PANTELLERIA_-_panoramio.jpg?20170208184330);
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  background-size: cover;
+}
+
   .logotype-wrapper {
     position: fixed;
     top: 30%;
-    left: 0%;
+    left: 5%;
     display: flex;
     flex-direction: row;
     border-color: green;
-    width: 100%;
+    width: 90%;
   }
 
   .login-botton-wrapper {
@@ -313,16 +284,25 @@ a:active {
 
 
 
-@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 700px) {
+
+  html {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ISOLA_DI_PANTELLERIA_-_panoramio.jpg/1600px-ISOLA_DI_PANTELLERIA_-_panoramio.jpg?20170208184330);
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  background-size: cover;
+}
 
   .logotype-wrapper {
     position: fixed;
     top: 30%;
-    left: 0%;
+    left: 5%;
     display: flex;
     flex-direction: row;
     border-color: green;
-    width: 100%;
+    width: 90%;
   }
 
   .login-botton-wrapper {
