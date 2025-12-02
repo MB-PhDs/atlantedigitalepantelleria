@@ -330,6 +330,8 @@ ver. 1.0
 .download-pdf {
   text-indent: 0;
   font-style: italic;
+  font-size: var(--paragraph-text-dimension);
+  line-height: var(--paragraph-text-line-height);
 }
 
 .box {
@@ -814,6 +816,13 @@ nav ul ul li {
     font-style: italic;
     color: #eec05d;
   }
+
+  .download-pdf {
+  text-indent: 0;
+  font-style: italic;
+  font-size: calc(var(--paragraph-text-dimension)*1.618);
+  line-height: var(--paragraph-text-line-height);
+}
 
   .paragraph-text {
     font-size: calc(var(--paragraph-text-dimension)*1.618);
