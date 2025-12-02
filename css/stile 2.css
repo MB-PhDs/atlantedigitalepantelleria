@@ -194,7 +194,7 @@ a:active {
   flex-direction: row;
   border-color: green;
   left: 50%;
-  top: 70%;
+  top: 80%;
   justify-content: space-around;
 }
 
@@ -204,7 +204,7 @@ a:active {
 }
 
 .login-botton {
-  font-size: var(--paragraph-text-dimension);
+  font-size: calc(var(--paragraph-text-dimension)*1,618);
 }
 
 /* responsive behavior*/
@@ -253,7 +253,7 @@ a:active {
     display: flex;
     flex-direction: row;
     border-color: green;
-    width: 90%;
+    width: 100%;
   }
 
   .login-botton-wrapper {
