@@ -856,7 +856,7 @@ nav ul ul li {
   }
 
   .titles-caption {
-    font-size: calc(var(--paragraph-text-dimension)*1.236);
+    font-size: calc(var(--paragraph-text-dimension)*1);
     line-height: calc(var(--paragraph-text-line-height)*1);
     text-indent: 0;
   }
