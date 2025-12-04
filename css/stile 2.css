@@ -244,7 +244,7 @@ a:active {
 /* device breakpoint*/
 
 
-@media screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
 
   html {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ISOLA_DI_PANTELLERIA_-_panoramio.jpg/1600px-ISOLA_DI_PANTELLERIA_-_panoramio.jpg?20170208184330);
@@ -284,7 +284,7 @@ a:active {
 
 
 
-@media screen and (min-device-width: 320px) and (max-device-width: 700px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
   html {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ISOLA_DI_PANTELLERIA_-_panoramio.jpg/1600px-ISOLA_DI_PANTELLERIA_-_panoramio.jpg?20170208184330);
