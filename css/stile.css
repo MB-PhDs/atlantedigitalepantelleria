@@ -784,7 +784,7 @@ nav ul ul li {
 /* mobile devices brackpoint*/
 
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 700px) and (max-device-width: 1024px) {
   .grid {
     display: grid;
     width: 100%;
@@ -1043,7 +1043,7 @@ nav ul ul li {
 
 
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
 
 
   .grid {
