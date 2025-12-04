@@ -1314,7 +1314,7 @@ nav ul ul li {
 
   .titles-wrapper {
     flex-direction: column;
-    width: 50%;
+    width: 70%;
   }
 
   .header {
@@ -1325,13 +1325,13 @@ nav ul ul li {
   }
 
   .primary-heading {
-    font-size: calc(var(--paragraph-text-dimension)*3.236);
+    font-size: calc(var(--paragraph-text-dimension)*3.927);
     line-height: calc(var(--paragraph-text-line-height)*0.927);
   }
 
   .title-articles {
-    font-size: calc(var(--paragraph-text-dimension)*2.427);
-    line-height: calc(var(--paragraph-text-line-height)*0.764);
+    font-size: calc(var(--paragraph-text-dimension)*2.618);
+    line-height: calc(var(--paragraph-text-line-height)*0.927);
     font-style: italic;
     color: #eec05d;
   }
@@ -1433,6 +1433,7 @@ nav ul ul li {
     border-color: green;
     width: 100%;
     margin-top: var(--spacer);
+    row-gap: var(--spacer);
   }
 
   .paragraph-container-margin-top {
