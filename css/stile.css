@@ -283,20 +283,20 @@ ver. 1.0
 
 .caption-text {
   font-size: calc(var(--paragraph-text-dimension)/1.236);
-  line-height: calc(var(--paragraph-text-line-height)/0.927em);
+  line-height: calc(var(--paragraph-text-line-height)/0.927);
   text-indent: 0vw;
 }
 
 .caption-text-italic {
   font-size: calc(var(--paragraph-text-dimension)/1.236);
-  line-height: calc(var(--paragraph-text-line-height)/0.927em);
+  line-height: calc(var(--paragraph-text-line-height)/0.927);
   text-indent: 0vw;
   font-style: italic;
 }
 
 .figure-caption-text {
   font-size: calc(var(--paragraph-text-dimension)/1.236);
-  line-height: calc(var(--paragraph-text-line-height)/0.927em);
+  line-height: calc(var(--paragraph-text-line-height)/0.927);
   text-indent: 0vw;
    margin-top: calc(var(--spacer)/3.236);
    margin-bottom: calc(var(--paragraph-text-dimension)/1.236);
@@ -304,7 +304,7 @@ ver. 1.0
 
 .credit-text {
   font-size: calc(var(--paragraph-text-dimension)/1.236);
-  line-height: calc(var(--paragraph-text-line-height)/0.927em);
+  line-height: calc(var(--paragraph-text-line-height)/0.927);
   text-indent: 0vw;
 }
 
@@ -318,7 +318,7 @@ ver. 1.0
 
 .titles-caption {
   font-size: calc(var(--paragraph-text-dimension)/1.236);
-  line-height: calc(var(--paragraph-text-line-height)/0.927em);
+  line-height: calc(var(--paragraph-text-line-height)/0.927);
   color: #eec05d;
 }
 
