@@ -291,6 +291,43 @@ a:active {
 
 
 
+@media screen and (min-device-width: 800px) and (max-device-width: 1000px) {
+
+  html {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ISOLA_DI_PANTELLERIA_-_panoramio.jpg/1600px-ISOLA_DI_PANTELLERIA_-_panoramio.jpg?20170208184330);
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  background-size: cover;
+}
+
+  .logotype-wrapper {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    display: flex;
+    flex-direction: row;
+    border-color: green;
+    width: 70%;
+  }
+
+  .login-botton-wrapper {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    border-color: green;
+    left: 45%;
+    top: 80%;
+    justify-content: space-around;
+  }
+
+
+  .login-botton {
+    font-size: calc(var(--paragraph-text-dimension)*1.236);
+  }
+}
+
 
 @media screen and (min-device-width: 320px) and (max-device-width: 700px) {
 
@@ -325,6 +362,6 @@ a:active {
 
 
   .login-botton {
-    font-size: calc(var(--paragraph-text-dimension)*2);
+    font-size: calc(var(--paragraph-text-dimension)*2.427);
   }
 }
