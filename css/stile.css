@@ -178,7 +178,7 @@ ver. 1.0
   width: 100%;
   grid-template-columns: repeat(2, 1Fr);
   grid-gap: var(--spacer);
-  margin-top: calc(var(--spacer)*3);
+  margin-top: calc(var(--spacer)*3.236);
 }
 
 .nav-wrapper {
@@ -637,6 +637,14 @@ nav ul ul li {
     grid-gap: 0%;
   }
 
+  .grid-margin-top {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1Fr;
+    grid-gap: 0%;
+    margin-top: calc(var(--spacer)*3.236);
+  }
+
   .titles-wrapper {
     flex-direction: column;
     width: 50%;
@@ -790,6 +798,14 @@ nav ul ul li {
     width: 100%;
     grid-template-columns: 1Fr;
     grid-gap: 0%;
+  }
+
+    .grid-margin-top {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1Fr;
+    grid-gap: 0%;
+    margin-top: calc(var(--spacer)*3.236);
   }
 
   .titles-wrapper {
@@ -1052,6 +1068,14 @@ nav ul ul li {
     grid-gap: 0%;
   }
 
+    .grid-margin-top {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1Fr;
+    grid-gap: 0%;
+    margin-top: calc(var(--spacer)*3.236);
+  }
+
   .titles-wrapper {
     flex-direction: column;
     width: 50%;
@@ -1310,6 +1334,14 @@ nav ul ul li {
     width: 100%;
     grid-template-columns: 1Fr;
     grid-gap: 0%;
+  }
+
+    .grid-margin-top {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1Fr;
+    grid-gap: 0%;
+    margin-top: calc(var(--spacer)*3.236);
   }
 
   .titles-wrapper {
