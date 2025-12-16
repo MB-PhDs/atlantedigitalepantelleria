@@ -424,7 +424,7 @@ ver. 1.0
 
 .column2 {
   column-count: 2;
-  width: 100%;
+  width: 90%;
   column-gap: 5%;
   margin-left: var(--spacer);
 }
