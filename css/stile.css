@@ -419,12 +419,14 @@ ver. 1.0
 .column {
   column-count: 3;
   width: 100%;
+  margin-left: var(--spacer);
 }
 
 .column2 {
   column-count: 2;
   width: 100%;
   column-gap: 5%;
+  margin-left: var(--spacer);
 }
 
 .credit-wrapper {
@@ -769,11 +771,13 @@ nav ul ul li {
   .column {
     column-count: 2;
     width: 100%;
+    margin-left: var(--spacer);
   }
 
   .column2 {
     column-count: 1;
     width: 70%;
+    margin-left: var(--spacer);
   }
 
   .credit-wrapper {
@@ -1036,12 +1040,14 @@ nav ul ul li {
     column-count: 1;
     width: 100%;
     margin-top: var(--spacer);
+    margin-left: var(--spacer);
   }
 
   .column2 {
     column-count: 1;
     width: 100%;
     margin-top: var(--spacer);
+    margin-left: var(--spacer);
   }
 
   .credit-wrapper {
@@ -1304,12 +1310,14 @@ nav ul ul li {
     column-count: 1;
     width: 100%;
     margin-top: var(--spacer);
+    margin-left: var(--spacer);
   }
 
   .column2 {
     column-count: 1;
     width: 100%;
     margin-top: var(--spacer);
+    margin-left: var(--spacer);
   }
 
   .credit-wrapper {
@@ -1573,12 +1581,14 @@ nav ul ul li {
     column-count: 1;
     width: 100%;
     margin-top: var(--spacer);
+    margin-left: var(--spacer);
   }
 
   .column2 {
     column-count: 1;
     width: 100%;
     margin-top: var(--spacer);
+    margin-left: var(--spacer);
   }
 
   .credit-wrapper {
